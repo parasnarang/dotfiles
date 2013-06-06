@@ -1,0 +1,24 @@
+# General
+alias l='ls -lha'
+
+# Git
+# (more aliases in ~/.oh-my-zsh/plugins/git)
+alias gd='git diff'
+compdef _git gd=git-diff
+alias gs='git status'
+compdef _git gs=git-status
+alias glg='git log'
+compdef _git glg=git-log
+
+# To make cd simpler 
+alias cd..="cd .."
+alias cd..2="cd ../.."
+alias cd..3="cd ../../.."
+alias cd..4="cd ../../../.."
+alias cd..5="cd ../../../../.."
+function mkdircd () { mkdir -p "$@" && eval cd "\"\$$#\""; }
+
+# Folder stuff
+alias codechef='cd /Volumes/Data/code/practice'
+alias v='mvim'
+alias repo='cd /Volumes/Data/repos/'

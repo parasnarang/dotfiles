@@ -1,0 +1,10 @@
+[user]
+	name = Paras Narang
+	email = narangparas@gmail.com
+[color]
+	diff = auto
+[core]
+	editor = vim
+	autocrlf = input
+[push]
+	default = upstream

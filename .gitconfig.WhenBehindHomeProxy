@@ -1,0 +1,15 @@
+[user]
+	name = Paras Narang
+	email = narangparas@gmail.com
+[color]
+	diff = auto
+[http]
+	proxy = 10.3.2.20:80
+[core]
+	gitproxy = gitproxy
+	editor = vim
+	autocrlf = input
+[push]
+	default = upstream
+[url "https://"]
+	insteadOf = git://
