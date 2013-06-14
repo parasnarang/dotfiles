@@ -9,6 +9,7 @@ alias gs='git status'
 compdef _git gs=git-status
 alias glg='git log'
 compdef _git glg=git-log
+alias gp='git push origin master'
 
 # To make cd simpler 
 alias cd..="cd .."
