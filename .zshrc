@@ -56,4 +56,4 @@ fi
 
 # Prevent stupid zsh suggestions. Only correct commands, not arguments
 unsetopt correctall
-setopt correct
+unsetopt correct

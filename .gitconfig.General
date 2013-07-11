@@ -8,3 +8,4 @@
 	autocrlf = input
 [push]
 	default = upstream
+
