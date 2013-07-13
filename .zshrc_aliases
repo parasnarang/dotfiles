@@ -29,3 +29,4 @@ alias webroot='cd /Library/WebServer/Documents/'
 alias sss='python manage.py runserver'
 # python server
 alias ppp='python -m SimpleHTTPServer'
+alias ccc='clear'
