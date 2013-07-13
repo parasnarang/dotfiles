@@ -24,3 +24,5 @@ alias codechef='cd /Volumes/Data/code/practice'
 alias v='mvim'
 alias repo='cd /Volumes/Data/repos/'
 alias webroot='cd /Library/WebServer/Documents/'
+
+alias sss='python manage.py runserver'
