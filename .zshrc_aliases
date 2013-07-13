@@ -25,4 +25,7 @@ alias v='mvim'
 alias repo='cd /Volumes/Data/repos/'
 alias webroot='cd /Library/WebServer/Documents/'
 
+# django server
 alias sss='python manage.py runserver'
+# python server
+alias ppp='python -m SimpleHTTPServer'
