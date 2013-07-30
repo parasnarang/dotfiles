@@ -20,7 +20,7 @@ alias cd..5="cd ../../../../.."
 function mkdircd () { mkdir -p "$@" && eval cd "\"\$$#\""; }
 
 # Folder stuff
-alias codechef='cd /Volumes/Data/code/practice'
+alias codechef='cd /Volumes/Data/repos/algorithmic-arena/codechef'
 alias v='mvim'
 alias repo='cd /Volumes/Data/repos/'
 alias webroot='cd /Library/WebServer/Documents/'
