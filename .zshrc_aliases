@@ -1,6 +1,3 @@
-# General
-alias l='ls -lha'
-
 # Git
 # (more aliases in ~/.oh-my-zsh/plugins/git)
 alias gd='git diff'
@@ -19,14 +16,18 @@ alias cd..4="cd ../../../.."
 alias cd..5="cd ../../../../.."
 function mkdircd () { mkdir -p "$@" && eval cd "\"\$$#\""; }
 
-# Folder stuff
-alias codechef='cd /Volumes/Data/repos/algorithmic-arena/codechef'
+# General
+alias l='ls -lha'
+alias ccc='clear'
 alias v='mvim'
-alias repo='cd /Volumes/Data/repos/'
-alias webroot='cd /Library/WebServer/Documents/'
 
 # django server
 alias sss='python manage.py runserver'
 # python server
 alias ppp='python -m SimpleHTTPServer'
-alias ccc='clear'
+
+# Personal Folder stuff
+alias webroot='cd /Library/WebServer/Documents/'
+alias codechef='cd /Volumes/Data/repos/algorithmic-arena/codechef'
+alias repo='cd /Volumes/Data/repos/'
+alias algos='cd /Volumes/Data/code/algos/doneprogs/ && v .'
