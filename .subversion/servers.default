@@ -141,8 +141,8 @@
 ### due to SSL.
 [global]
 # http-proxy-exceptions = *.exception.com, www.internal-site.org
-http-proxy-host = 10.3.2.20
-http-proxy-port = 80
+# http-proxy-host = defaultproxy.whatever.com
+# http-proxy-port = 7000
 # http-proxy-username = defaultusername
 # http-proxy-password = defaultpassword
 # http-compression = no
