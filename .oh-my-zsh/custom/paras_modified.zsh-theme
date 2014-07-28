@@ -7,14 +7,16 @@ function prompt_char {
 }
 
 local user='%{$fg[magenta]%}%m%{$reset_color%} '
-local pwd='in %{$fg[yellow]%}$(collapse_pwd)%{$reset_color%}'
-local git='$(git_prompt_info)$(git_prompt_status)%{$reset_color%}'
+local pwd='in %{$fg_bold[cyan]%}$(collapse_pwd)%{$reset_color%} '
+local git='%{$fg_bold[blue]%}$(git_prompt_info)$(git_prompt_status)%{$reset_color%}'
+local ret_status="%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ %s)"
+local folder="%{$fg_bold[green]%}%p %{$fg[cyan]%}%c %{$fg_bold[blue]%}"
 
 PROMPT="
-${user}${pwd}${git}
+${ret_status}${folder}${git}
 $(prompt_char) "
 
-ZSH_THEME_GIT_PROMPT_PREFIX=" on %{$fg[magenta]%}"
+ZSH_THEME_GIT_PROMPT_PREFIX=" on %{$fg[red]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[yellow]%}!"
 ZSH_THEME_GIT_PROMPT_CLEAN=""
