@@ -48,8 +48,8 @@ export DYLD_LIBRARY_PATH="/usr/local/mysql/lib:$DYLD_LIBRARY_PATH"
 PATH=$PATH:$HOME/.rvm/bin
 
 # Set Sublime Text 2 as default editor, fallback to vim
-if [[ -f "$HOME/bin/subl" ]] ; then
-    export EDITOR='subl -w'
+if [[ -f "$HOME/usr/local/bin/sublime" ]] ; then
+    export EDITOR='sublime -w'
 else
     export EDITOR='vim'
 fi
