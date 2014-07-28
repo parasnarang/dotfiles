@@ -19,7 +19,7 @@ function mkdircd () { mkdir -p "$@" && eval cd "\"\$$#\""; }
 # General
 alias l='ls -lha'
 alias ccc='clear'
-alias v='mvim'
+alias v='vim'
 
 # django server
 alias sss='python manage.py runserver'
